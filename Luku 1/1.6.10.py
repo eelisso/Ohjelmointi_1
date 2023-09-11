@@ -45,8 +45,6 @@ price = float(input("Purchase price: ")) * 100
 amount_paid = float(input("Paid amount of money: ")) * 100
 amount_rounded = round(amount_paid - price)
 amount = (amount_rounded // 5) * 5
-print(amount_rounded)
-print(amount)
 
 if amount < 0:
     print("Not enough funds.")
@@ -60,3 +58,6 @@ else:
     else:
         print("Offer change:")
         p1.printCoinsUsed(coins_used)
+
+
+
