@@ -4,7 +4,7 @@ Eelis Soikkeli, tehtävä 3.3
 
 
 def get_valid_input(data_type, prompt, allow_zero=True):
-    """ Validate user input, take in datatype and input prompt as parameters """
+    """ Validate user input, take in datatype and input prompt as parameters as well as if zero is allowed or not """
     loop = True
     while loop:  # Create loop for input validation
         try:  # Create an exception handler for when the input value produces an error
