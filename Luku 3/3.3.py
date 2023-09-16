@@ -1,5 +1,8 @@
 """
-Eelis Soikkeli, tehtävä 3.3
+Eelis Soikkeli, exercise 3.3
+This program prompts the user for days they want to track the distance ran, and then prompts the distance
+for each day, after which it produces a mean of those runs. The program exits if the user doesn't run for 3
+consecutive days
 """
 
 
