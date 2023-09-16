@@ -8,7 +8,7 @@ def get_valid_input(data_type, prompt, allow_zero=True):
     loop = True
     while loop:  # Create loop for input validation
         try:  # Create an exception handler for when the input value produces an error
-            value = data_type(input(prompt).replace(",", "."))
+            value = data_type(input(prompt).replace(",", "."))  # Allow user to use both decimal separators
             if allow_zero and value >= 0:
                 return value  # Return input value and break loop when zero is allowed and input is correct
             elif not allow_zero and value > 0:
