@@ -5,8 +5,7 @@ Eelis Soikkeli, tehtävä 3.3
 
 def get_valid_input(data_type, prompt, allow_zero=True):
     """ Validate user input, take in datatype and input prompt as parameters as well as if zero is allowed or not """
-    loop = True
-    while loop:  # Create loop for input validation
+    while True:  # Create loop for input validation
         try:  # Create an exception handler for when the input value produces an error
             value = data_type(input(prompt).replace(",", "."))  # Allow user to use both decimal separators
             if allow_zero and value >= 0:
@@ -49,7 +48,7 @@ def mean_calc(runs):
     """ Calculate the mean of distance ran """
     mean = sum(runs) / len(runs)  # Mean equals the sum of all elements divided by the amount of elements
     if mean < 3:
-        print(f"\nYour running mean of {mean:.2f} km was too low!")
+        print(f"\nYour running mean of {mean:.2f} km was too low!")  # Format the mean to 2 decimal places
     else:
         print(f"\nYou were persistent runner! With a mean of {mean:.2f} km.")
 
