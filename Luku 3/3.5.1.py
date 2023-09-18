@@ -5,7 +5,8 @@ This program prints out a song called Puff the Magic Dragon
 
 
 def print_chorus():
-    print("\nPuff, the magic dragon lived by the sea\n"
+    """ Function that prints out the chorus the song"""
+    print("Puff, the magic dragon lived by the sea\n"
           "And frolicked in the autumn mist in a land called Honah Lee,\n"
           "Puff, the magic dragon lived by the sea\n"
           "And frolicked in the autumn mist in a land called Honah Lee.\n")
@@ -15,14 +16,14 @@ def main():
     print("Puff, the magic dragon lived by the sea\n"
           "And frolicked in the autumn mist in a land called Honah Lee,\n"
           "Little Jackie paper loved that rascal puff,\n"
-          "And brought him strings and sealing wax and other fancy stuff. oh!")
+          "And brought him strings and sealing wax and other fancy stuff. oh!\n")
 
     print_chorus()
 
     print("Together they would travel on a boat with billowed sail\n"
           "Jackie kept a lookout perched on puffs gigantic tail,\n"
           "Noble kings and princes would bow whene'r they came,\n"
-          "Pirate ships would lower their flag when puff roared out his name. oh!")
+          "Pirate ships would lower their flag when puff roared out his name. oh!\n")
 
     print_chorus()
 
@@ -34,7 +35,7 @@ def main():
     print("His head was bent in sorrow, green scales fell like rain,\n"
           "Puff no longer went to play along the cherry lane.\n"
           "Without his life-long friend, puff could not be brave,\n"
-          "So puff that mighty dragon sadly slipped into his cave. oh!")
+          "So puff that mighty dragon sadly slipped into his cave. oh!\n")
 
     print_chorus()
 
